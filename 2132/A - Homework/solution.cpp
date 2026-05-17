@@ -1,1 +1,33 @@
-#include <bits//stdc++.h>using namespace std; int main() {    ios_base::sync_with_stdio(0);    cin.tie(0);     int t, n, m;     cin >> t;     for (int i = 0; i < t; i++) {        string a, b, c, res;        cin >> n >> a >> m >> b >> c;         for (int j = m - 1; j >= 0; j--) {            if (c[j] == 'V') {                res+= b[j];            }        }         res+= a;         for (int j = 0; j < m; j++) {            if (c[j] == 'D') {                res+= b[j];            }        }                cout << res << "\n";    }}
+#include <bits//stdc++.h>
+using namespace std;
+ 
+int main() {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+ 
+    int t, n, m;
+ 
+    cin >> t;
+ 
+    for (int i = 0; i < t; i++) {
+        string a, b, c, res;
+        cin >> n >> a >> m >> b >> c;
+ 
+        for (int j = m - 1; j >= 0; j--) {
+            if (c[j] == 'V') {
+                res+= b[j];
+            }
+        }
+ 
+        res+= a;
+ 
+        for (int j = 0; j < m; j++) {
+            if (c[j] == 'D') {
+                res+= b[j];
+            }
+        }
+        
+        cout << res << "
+";
+    }
+}
