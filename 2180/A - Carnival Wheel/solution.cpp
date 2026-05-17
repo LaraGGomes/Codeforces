@@ -1,1 +1,35 @@
-#include <bits/stdc++.h>using namespace std; int main() {    ios_base::sync_with_stdio(0);    cin.tie(0);     int t, l, a, b, res;     cin >> t;    while (t > 0) {        cin >> l >> a >> b;         int x, i = 2;         res = (a + b) % l;         do {            x = (a + (i*b)) % l;             if (x > res) {                res = x;            }            i++;        } while (x != ((a + b) % l));         cout << res;        cout << "\n";         t--;    }     return 0;}
+#include <bits/stdc++.h>
+using namespace std;
+ 
+int main() {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+ 
+    int t, l, a, b, res;
+ 
+    cin >> t;
+    while (t > 0) {
+        cin >> l >> a >> b;
+ 
+        int x, i = 2;
+ 
+        res = (a + b) % l;
+ 
+        do {
+            x = (a + (i*b)) % l;
+ 
+            if (x > res) {
+                res = x;
+            }
+            i++;
+        } while (x != ((a + b) % l));
+ 
+        cout << res;
+        cout << "
+";
+ 
+        t--;
+    }
+ 
+    return 0;
+}
