@@ -1,1 +1,9 @@
 # Codeforces
+
+Este repositório contém as minhas resoluções de problemas da plataforma **Codeforces**. 
+
+O envio dos códigos para cá é automatizado através da extensão **CFPusher (Codeforces Pusher)**, que sincroniza minhas submissões aceitas diretamente com o GitHub.
+
+* [Meu Perfil no Codeforces](https://codeforces.com/profile/laraggomes)
+* [Repositório do CFPusher](https://github.com/SarJ2004/cf-pusher)
+* Extensão: [CFPusher na Chrome Web Store]([https://chromewebstore.google.com/detail/cfpusher/chmgnmcdmepbofclbggbofomgclbgpgo](https://chromewebstore.google.com/detail/cfpusher-codeforces-to-gi/eiffefcjnaanflbhcmgjlaoilhpkbael))
