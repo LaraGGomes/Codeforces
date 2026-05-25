@@ -6,4 +6,4 @@ O envio dos códigos para cá é automatizado através da extensão **CFPusher (
 
 * [Meu Perfil no Codeforces](https://codeforces.com/profile/laraggomes)
 * [Repositório do CFPusher](https://github.com/SarJ2004/cf-pusher)
-* Extensão: [CFPusher na Chrome Web Store](https://chromewebstore.google.com/detail/eiffefcjnaanflbhcmgjlaoilhpkbael?utm_source=item-share-cb)
+* [CFPusher na Chrome Web Store](https://chromewebstore.google.com/detail/eiffefcjnaanflbhcmgjlaoilhpkbael?utm_source=item-share-cb)
