@@ -1,20 +1,16 @@
-#include <iostream>
+#include <bits/stdc++.h>
+ 
 using namespace std;
- 
+typedef long long ll;
+ 
 int main() {
-    int x, steps = 0;
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
  
-    cin >> x;
+    int n; cin >> n;
  
-    for (int i = 5; i > 0; i--) {
-        if (x >= i) {
-            steps += x / i;
- 
-            x -= i*(x / i);
-        }
-    }
- 
-    cout << steps;
- 
+    if (n%5 == 0) cout << n/5;
+    else cout << n/5+1;
+ 
     return 0;
 }
